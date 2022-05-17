@@ -18,7 +18,6 @@ const MeetupDetails = (props) => {
   );
 };
 
-
 export async function getStaticPaths() {
   const client = await MongoClient.connect(
     "mongodb+srv://watsum08:marcmeynet08@cluster0.axn5j.mongodb.net/meetups"
